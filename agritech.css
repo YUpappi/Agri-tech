@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 2px solid red;
 }
 /* ======REUSEABLE CSS================= */
 html{
@@ -686,6 +687,9 @@ ul{
 
 }
 @media (max-width: 768px) {
+    html{
+        font-size: 55%;
+    }
     .modern-width,
     .discover {
         flex-basis: 100%; /* Full width on smaller screens */
